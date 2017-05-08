@@ -24,10 +24,10 @@ img {
   padding-left: 10px
 }
 #BoWins {
-  display: block;
-  vertical-align: center;
   position: absolute;
-  z-index: 3;
+  height: 50%;
+  width: 98%;
+  vertical-align: center;
 }
 #BarryWins {
   display: none;
