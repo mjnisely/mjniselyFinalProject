@@ -1,5 +1,5 @@
 body {
-  background-image: url(footballfield.pgn);
+  background-image: "footballfield.pgn";
   background-position: center;
   background-size: cover;
 }
