@@ -24,7 +24,7 @@ img {
   padding-left: 10px
 }
 #BoWins {
-  align-items: center;
+  display: block;
   z-index: 3;
 }
 #BarryWins {
