@@ -1,16 +1,15 @@
-body {
-  background-position: center center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  padding: 0px;
-}
 h1 {
   text-align: center;
   margin: 0px;
 }
 img {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+}
+.img1 {
+  z-index: 1;
   height: 75px;
   width: 75px;
-  padding-top: 25px;
-  padding-left: 10px;
+  padding-top: 20px;
 }
