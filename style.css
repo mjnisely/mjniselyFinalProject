@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  padding: 0px;
+  padding: none;
 }
 img {
   position: absolute;
@@ -24,5 +24,5 @@ img {
   padding-left: 10px
 }
 p {
-  padding: 0px;
+  padding: none;
 }
