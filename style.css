@@ -25,6 +25,7 @@ img {
 }
 #BoWins {
   display: block;
+  vertical-align: center;
   z-index: 3;
 }
 #BarryWins {
