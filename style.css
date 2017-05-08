@@ -6,6 +6,7 @@ img {
   position: absolute;
   height: 50%;
   width: 100%;
+  padding-right: 10px;
 }
 .img1 {
   z-index: 1;
