@@ -23,7 +23,14 @@ img {
   padding-top: 55px;
   padding-left: 10px
 }
+#BoWins {
 
+  z-index: 3;
+}
+#BarryWins {
+  display: none;
+  z-index: 3;
+}
 p {
   padding: 0;
 }
