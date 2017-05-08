@@ -4,6 +4,6 @@ body {
   background-repeat: no-repeat;
   padding-top: 280px;
 }
-h1 {
-  position: center;
+div h1 {
+  text-align: center;
 }
