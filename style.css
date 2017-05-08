@@ -28,7 +28,7 @@ img {
   height: 50%;
   width: 98%;
   vertical-align: center;
-  z-index: 3;
+  z-index: 2;
 }
 #BarryWins {
   display: none;
