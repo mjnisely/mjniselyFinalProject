@@ -3,7 +3,7 @@ h1 {
   padding: 0;
 }
 img {
-  height: 50%;
+  height: auto;
   width: 98%;
 }
 .img1 {
@@ -11,6 +11,8 @@ img {
   position: absolute;
   height: 75px;
   width: 75px;
+  top: 10px;
+  left: 20px;
   padding-top: 55px;
   padding-left: 10px;
 }
@@ -19,6 +21,8 @@ img {
   position: absolute;
   height: 75px;
   width: 75px;
+  top: 90px;
+  left: 20px;
   padding-top: 55px;
   padding-left: 10px
 }
@@ -31,6 +35,9 @@ img {
 #BarryWins {
   display: none;
   z-index: 3;
+}
+.field_wrapper{
+  position: relative;
 }
 p {
   padding: 0;
