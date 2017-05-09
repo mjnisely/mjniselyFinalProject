@@ -46,23 +46,6 @@ function startRace() {
       return;
     }
 
-    if(posBarry < finish)
-    {
-      posBarry += Math.round(Math.random()*10);
-      barry.style.left = posBarry + 'px';
-
-      if(posBarry >= finish)
-      {
-        posBarry = finish;
-        if(!hasWinner){
-          hasWinner = true;
-          field.style.display = 'none';
-          barry_wins.style.display = 'block';
-        }
-      }
-
-    }
-
     if(posBo < finish)
     {
       posBo += Math.round(Math.random()*10);
@@ -78,6 +61,22 @@ function startRace() {
         }
       }
 
+    }
+
+    if(posBarry < finish)
+    {
+      posBarry += Math.round(Math.random()*10);
+      barry.style.left = posBarry + 'px';
+
+      if(posBarry >= finish)
+      {
+        posBarry = finish;
+        if(!hasWinner){
+          hasWinner = true;
+          field.style.display = 'none';
+          barry_wins.style.display = 'block';
+        }
+      }
     }
   }
 }
