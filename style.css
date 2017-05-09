@@ -3,13 +3,12 @@ h1 {
   padding: 0;
 }
 img {
-  position: absolute;
   height: 50%;
   width: 98%;
 }
 .img1 {
   z-index: 1;
-  position: relative;
+  position: absolute;
   height: 75px;
   width: 75px;
   padding-top: 55px;
@@ -17,7 +16,7 @@ img {
 }
 .img2 {
   z-index: 2;
-  position: relative;
+  position: absolute;
   height: 75px;
   width: 75px;
   padding-top: 55px;
