@@ -33,6 +33,11 @@ img {
   z-index: 3;
 }
 #StopWatch{
+  display: none;
+  width: 75px;
+  height: 75px;
+}
+#StartButton {
   display: block;
   width: 75px;
   height: 75px;
